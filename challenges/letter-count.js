@@ -31,3 +31,17 @@
 */
 
 // YOUR CODE HERE
+function letterCount(word){
+  let out = {};
+  let test = word.toLowerCase().split("");
+
+  test.forEach(function(item){
+    if (out.item === undefined){
+      out.item = 1;
+    } else {
+      out.item += 1;
+    }
+  }
+  )
+  return out;
+}
